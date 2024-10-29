@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project on Introduction to Array and Call Stack</title>
+</head>
+<body>
+    <h1>Project on Introduction to Array and Call Stack + Objects in JS</h1>
+    <h2>Objects in JS</h2>
+    <p id="demo"></p>
+    <p id="semi"></p>
+
+    <h2>Math Objects</h2> <br>
+    <script>
+        var obj={name:"Elvis", age:12, grade: "8th", fav_subject:"Mathematics", fav_colour:"red", }
+        document.getElementById("demo").innerHTML="My name is " + obj.name + ". I am "+ obj.age + " years Old" + ". My Favourite Subject is " + obj.fav_subject + ". My Favourite colour is " + obj.fav_colour + ". I am in the " + obj.grade + " grade!"
+
+        var value=Math.acos(0.8)
+        document.write(value + "<br>")
+        var value=Math.sin(30)
+        document.write(value + "<br>")
+        var value=Math.abs(-30)
+        document.write(value + "<br>")
+        var value=Math.acos(-0.8)
+        document.write(value + "<br>")
+
+        var house=["Bungalow","Mansion","Duplex","Semi-Detached Duplex","Penthouse","Residential House"]
+        document.getElementById("semi").innerHTML=house[3]
+    </script>
+</body>
+</html>
